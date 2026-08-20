@@ -1,0 +1,15 @@
+Package: pahscrna
+Title: Guardrailed Single-Cell Utilities for the PAH Transcriptomics Project
+Version: 0.1.0
+Authors@R: person("PAH", "Project", role = c("aut", "cre"), email = "noreply@example.org")
+Description: Reusable, project-safe utilities adapted from the GEO single-cell
+    workflow described by ITWANGYANG. The package validates subject-level
+    metadata, creates pseudobulk count matrices, manages resumable checkpoints,
+    and exposes explicit optional-module checks without treating cells as
+    biological replicates.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2)
+Imports: Matrix
+Suggests: edgeR, SeuratObject, testthat (>= 3.0.0)
+Config/testthat/edition: 3
